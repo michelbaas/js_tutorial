@@ -3,10 +3,14 @@
   <head>
     <title>Learn Enough JavaScript</title>
     <meta charset="utf-8">
+    <script src="day.js"></script>
     <script>
       let firstName = "Michel"
       let lastName = "Baas"
-      alert("Hello, World!");
+
+      let now = new Date();
+      alert(greeting(now));
+
       console.log("This page contains a friendly greeting.");
       console.log(firstName, lastName);
     </script>
